@@ -7,7 +7,7 @@ cask "syncfusion-maui@28.1.33" do
   desc "MAUI installer for MAC"
   homepage "https://Syncfusion.com"
 
-  artifact "Syncfusion", target: "~/Applications/Syncfusion"
+  artifact "Syncfusion", target: "~/Applications/Syncfusion/MAUI/28.1.33"
 
   zap trash: [
     "~/Library/Application Support/Syncfusion",

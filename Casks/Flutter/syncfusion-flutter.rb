@@ -10,7 +10,7 @@ cask "syncfusion-flutter" do
   artifact "Syncfusion", target: "~/Applications/Syncfusion"
 
   zap trash: [
-    "~/Library/Application Support/Syncfusion",
+    "~/Library/Application Support/Syncfusion/Flutter/28.2.3",
     "~/Library/Preferences/com.syncfusion.flutter.plist",
   ]
 end
