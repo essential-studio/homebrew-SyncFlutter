@@ -1,4 +1,4 @@
-cask "syncfusion-maui" do
+cask "syncfusion-maui@28.1.33" do
   version "28.1.33"
   sha256 "0b7475b60eaa5a4c1048010a1643fa20e12b1e02b9c0898e00bf1087703c5adb"
 
