@@ -7,10 +7,10 @@ cask "syncfusion-flutter" do
   desc "Flutter installer for MAC"
   homepage "https://Syncfusion.com"
 
-  artifact "Syncfusion", target: "~/Applications/Syncfusion"
+  artifact "Syncfusion", target: "~/Applications/Syncfusion/Flutter/28.2.3"
 
   zap trash: [
-    "~/Library/Application Support/Syncfusion/Flutter/28.2.3",
+    "~/Library/Application Support/Syncfusion",
     "~/Library/Preferences/com.syncfusion.flutter.plist",
   ]
 end
